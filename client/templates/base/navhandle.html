@@ -1,0 +1,12 @@
+<template name="navBrand">
+    <a class="navbar-brand" href="{{ pathFor 'home' }}">IR Demo</a>
+</template>
+
+<template name='navItems'>
+    <li class="{{ activeIfTemplateIs 'articles' }}">
+        <a href="{{ pathFor 'articles'}}">Articles</a>
+    </li>
+    <li class="{{ activeIfTemplateIs 'about' }}">
+        <a href="{{pathFor 'about'}}">About</a>
+    </li>
+</template>
