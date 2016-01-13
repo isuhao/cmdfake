@@ -1,0 +1,75 @@
+$baseHeight: 60px !default;
+
+.content {
+  height: $baseHeight;
+
+  .display {
+    float: left;
+    width: 49%;
+    border: 1px solid dimgray;
+    min-height: 100%;
+  }
+
+  .input {
+    float: left;
+    width: 49%;
+    outline:none;
+    border-left: none;
+    border-right: 1px solid dimgray;
+    border-top: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+    border-radius: 0%;
+    min-height: $baseHeight;
+
+    .textarea {
+      outline:none;
+      border: none;
+      min-height: $baseHeight - 2px;
+    }
+  }
+}
+
+/*
+.display {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+.texarea {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  outline: 0;
+  //border: 1px solid;
+  //font-size: 12px;
+  //line-height: 24px;
+  //padding: 2px;
+  //overflow-x: hidden;
+  //overflow-y: auto;
+  //border-color: rgba(161, 48, 236, 0.8);
+  //box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(236, 150, 43, 0.6);
+}
+
+//.textarea {
+//  float: left;
+//  width: 50%;
+//  min-height: 200px;
+//max-height: 300px;
+//  margin-left: auto;
+//  margin-right: auto;
+//  padding: 3px;
+//  outline: 0;
+//  border: 1px solid;
+//  font-size: 12px;
+//  line-height: 24px;
+//  padding: 2px;
+//  word-wrap: break-word;
+  //overflow-x: hidden;
+  //overflow-y: auto;
+  //border-color: rgba(161, 48, 236, 0.8);
+  //box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(236, 150, 43, 0.6);  }
+*/

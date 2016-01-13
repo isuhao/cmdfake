@@ -1,0 +1,14 @@
+<template name="mk_layout">
+    <div class="head">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                {{> head}}
+                <div id="min-navbar-collapse" class="collapse navbar-collapse">
+                    {{> title}}
+                    {{> login}}
+                </div>
+            </div>
+        </nav>
+    </div>
+    {{> content}}
+</template>

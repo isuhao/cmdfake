@@ -1,0 +1,53 @@
+@mixin navbar($padding_left, $padding_right) {
+  .head .navbar {
+    padding-left: $padding_left;
+    padding-right: $padding_right;
+  }
+}
+
+.head {
+  margin-top: 50px;
+}
+
+.head .dropdown-menu {
+  width: 20em;
+}
+
+.head .form {
+  width: 80%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  @include navbar(2%, 2%);
+  /*#min-navbar-collapse {
+    padding-left: 5%;
+    #ul1 {
+      width: 94%;
+      text-align: center;
+      li {
+        width: 50%;
+      }
+    }
+  }*/
+}
+
+@media (min-width: 1200px) {
+  @include navbar(0%, 0%);
+  #min-navbar-collapse {
+    padding-left: 5%;
+    #ul1 {
+      width: 94%;
+      text-align: center;
+      li {
+        width: 50%;
+      }
+    }
+    /* #ul2 {
+          width: 20%;
+          align-content: center;
+    }*/
+  }
+}

@@ -19,3 +19,4 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 shanyue:marked
 iron:router
 twbs:bootstrap
+fourseven:scss
