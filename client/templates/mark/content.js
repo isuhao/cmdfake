@@ -22,6 +22,7 @@ Template.content.events({
             console.log('!!');
         }
         Session.set('text', $textarea.context.innerText);
+
         //var cul_height = $(e.target).find('#msg_end').context.offsetHeight + 20;
         //console.log($(e.target).find('#msg_end'));
         //console.log($(e.target).find('#msg_end'));
